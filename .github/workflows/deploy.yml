@@ -3,7 +3,7 @@ name: 批量保活进程
 on:
   schedule:
     # 使用cron表达式定义任务运行的时间
-    - cron: '30 01,07,13,19 * * *'
+    - cron: '43 0,06,12,18 * * *'
   workflow_dispatch:
 
 jobs:
